@@ -1,0 +1,32 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+  welcome.feature file is there, you can add the url and login credentials as per your site.
+
+* Ruby version
+  2.4.4
+* System dependencies
+  * need to install chromedriver
+  brew tap homebrew/cask && brew cask install chromedriver
+
+* Configuration
+
+* Database creation
+  rake db: create
+
+* Database initialization
+
+* How to run the test suite
+  cucumber features/welcome.feature
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
